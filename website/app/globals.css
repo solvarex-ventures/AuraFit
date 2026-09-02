@@ -1,0 +1,129 @@
+:root {
+  --bg: #f5f1e7;
+  --surface: #fffdf6;
+  --surface-2: #efe9d8;
+  --ink: #231f18;
+  --ink-muted: #655e4f;
+  --line: #dcd5c0;
+  --accent: #b3452a;
+  --accent-ink: #ffffff;
+  --good: #2f6b57;
+  --gold: #8a6a1f;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17140f;
+    --surface: #1e1a13;
+    --surface-2: #262119;
+    --ink: #f1ece0;
+    --ink-muted: #b5ac98;
+    --line: #3b3527;
+    --accent: #e2794f;
+    --accent-ink: #1a1108;
+    --good: #5fb49a;
+    --gold: #d9b85b;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  line-height: 1.6;
+  font-size: 17px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Oswald', 'Arial Narrow', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  margin: 0;
+}
+
+.mono {
+  font-family: 'IBM Plex Mono', ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+a {
+  color: var(--accent);
+}
+
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 999px;
+  padding: 12px 24px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--ink);
+  border-color: var(--line);
+}
+
+.btn:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+input {
+  font-family: inherit;
+  font-size: 15px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+}
+
+input::placeholder {
+  color: var(--ink-muted);
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 24px;
+}

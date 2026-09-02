@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Notorious Strength",
+    "slug": "notorious-strength",
+    "scheme": "notoriousstrength",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.notoriousstrength.app"
+    },
+    "android": {
+      "package": "com.notoriousstrength.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#17140F"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Notorious Strength to access your videos so you can upload a lift for AI form-check.",
+          "cameraPermission": "Allow Notorious Strength to use your camera to record a lift for AI form-check."
+        }
+      ]
+    ]
+  }
+}
