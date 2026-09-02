@@ -1,4 +1,4 @@
-# Notorious Strength — marketing website
+# AuraFit — marketing website
 
 The public-facing site: landing page, ebook checkout (real Razorpay integration), pricing, and
 waitlist capture. This is what your Instagram/YouTube/Facebook links should point to during the

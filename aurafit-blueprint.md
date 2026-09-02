@@ -1,10 +1,10 @@
-# Notorious Strength — Platform Blueprint (Sept 2026)
+# AuraFit — Platform Blueprint (Sept 2026)
 
 ## What this is
 A trainer–client platform for bodybuilding/powerlifting/weightlifting, positioned against
-Fittr, HealthifyMe, Fitelo, Trainerize/TrueCoach and Cult.fit. Working brand name: **Notorious
-Strength** (leverages @fitnotooriousashu / thenotoriousashu / Fittravelerashu). Alternates to
-test: IronPath India, NotoriousFit.
+Fittr, HealthifyMe, Fitelo, Trainerize/TrueCoach and Cult.fit. Brand name: **AuraFit**
+(pre-launch content should visibly link it to the existing @fitnotooriousashu /
+thenotoriousashu / Fittravelerashu audience until the new name has its own recognition).
 
 ## Competitive gaps identified (the wedge)
 - No competitor offers AI video form-check (all "AI" claims are macro math or chat, not movement analysis).
@@ -45,7 +45,11 @@ Razorpay business KYC, DPDP Act 2023/2025-Rules consent flow, signed medical/fit
 health screening at signup, published refund policy (direct fix for Fitelo's top complaint
 pattern), Play Store Data Safety form.
 
+## Delivered so far
+Business blueprint, an Expo (React Native) app, a Node/Express server (auth, database, AI,
+payments), and a Next.js marketing website — all under the AuraFit name, pushed to
+github.com/solvarex-ventures/AuraFit.
+
 ## Open decisions for Ashish
-1. Final brand name (Notorious Strength vs IronPath India vs NotoriousFit).
-2. Whether to start Razorpay KYC now (recommended immediately — it's the longest lead-time item).
-3. Which 5 audience members to approach first for the ₹3,000/mo Foundation coaching slots.
+1. Whether to start Razorpay KYC now (recommended immediately — it's the longest lead-time item).
+2. Which 5 audience members to approach first for the ₹3,000/mo Foundation coaching slots.

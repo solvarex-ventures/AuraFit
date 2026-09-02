@@ -4,7 +4,7 @@
 import { Platform } from 'react-native';
 import * as SecureStore from 'expo-secure-store';
 
-const KEY = 'notorious_strength_token';
+const KEY = 'aurafit_token';
 
 export async function saveToken(token: string): Promise<void> {
   if (Platform.OS === 'web') {

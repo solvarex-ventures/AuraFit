@@ -3,7 +3,7 @@ import Link from 'next/link';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Notorious Strength — Bodybuilding, Powerlifting & Weightlifting Coaching',
+  title: 'AuraFit — Bodybuilding, Powerlifting & Weightlifting Coaching',
   description:
     'AI form-check on every lift you upload, real periodized programming, and coaches you can actually see the price of. Ebooks, 1:1 coaching, and consultations for bodybuilding, powerlifting and weightlifting.',
 };
@@ -31,7 +31,7 @@ function SiteHeader() {
     <header style={{ borderBottom: '1px solid var(--line)', padding: '20px 0' }}>
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <Link href="/" style={{ fontFamily: 'Oswald', fontWeight: 700, fontSize: 18, color: 'var(--ink)', textDecoration: 'none', letterSpacing: '0.02em' }}>
-          NOTORIOUS STRENGTH
+          AURAFIT
         </Link>
         <nav style={{ display: 'flex', gap: 24, fontFamily: 'Oswald', fontSize: 13, textTransform: 'uppercase', letterSpacing: '0.03em' }}>
           <Link href="/ebooks" style={{ color: 'var(--ink)', textDecoration: 'none' }}>Ebooks</Link>
@@ -47,7 +47,7 @@ function SiteFooter() {
   return (
     <footer style={{ borderTop: '1px solid var(--line)', marginTop: 96, padding: '32px 0', color: 'var(--ink-muted)', fontSize: 13 }}>
       <div className="container" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', gap: 16 }}>
-        <span>© {new Date().getFullYear()} Notorious Strength</span>
+        <span>© {new Date().getFullYear()} AuraFit</span>
         <span>
           <a href="https://instagram.com/fitnotooriousashu" target="_blank" rel="noreferrer">Instagram</a>
           {' · '}

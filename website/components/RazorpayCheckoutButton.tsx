@@ -47,7 +47,7 @@ export default function RazorpayCheckoutButton({ itemId, itemLabel, amountInr, k
         key: razorpayKeyId,
         amount: order.amount,
         currency: order.currency,
-        name: 'Notorious Strength',
+        name: 'AuraFit',
         description: itemLabel,
         order_id: order.id,
         prefill: { email },

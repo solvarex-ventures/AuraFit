@@ -1,6 +1,6 @@
 import { APP_SUBSCRIPTION_TIERS, COACHING_TIERS, CONSULT_PRICE_INR } from '@/data/pricing';
 
-export const metadata = { title: 'Pricing — Notorious Strength' };
+export const metadata = { title: 'Pricing — AuraFit' };
 
 export default function PricingPage() {
   return (
@@ -26,7 +26,7 @@ export default function PricingPage() {
               ))}
             </ul>
             <a
-              href={`https://wa.me/?text=${encodeURIComponent(`Hi! I'd like to start ${tier.name} coaching (₹${tier.priceInr}/${tier.billing}) on Notorious Strength.`)}`}
+              href={`https://wa.me/?text=${encodeURIComponent(`Hi! I'd like to start ${tier.name} coaching (₹${tier.priceInr}/${tier.billing}) on AuraFit.`)}`}
               target="_blank"
               rel="noreferrer"
               className="btn btn-primary"

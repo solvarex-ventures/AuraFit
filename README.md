@@ -1,15 +1,15 @@
-# Notorious Strength
+# AuraFit
 
 A trainer–client platform for bodybuilding, powerlifting and weightlifting — AI form-check on
 uploaded lift videos, real periodized programming, ebooks, and 1:1 coaching. Built from the
-[Notorious Strength Blueprint](notorious-strength-blueprint.md), a full competitor teardown
+[AuraFit Blueprint](aurafit-blueprint.md), a full competitor teardown
 (Fittr/HealthifyMe/Fitelo) and business model.
 
 ## What's inside
 
 ```
-notorious-strength/
-  notorious-strength-blueprint.md   the business strategy summary
+aurafit/
+  aurafit-blueprint.md   the business strategy summary
   blueprint.html                    the full designed strategy report (open in a browser)
   app/                               Expo (React Native) client — Android, iOS, and web
   server/                            Node/Express API — auth, database, AI, payments

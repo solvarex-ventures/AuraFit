@@ -13,7 +13,7 @@ const app = express();
 app.use(cors({ origin: process.env.CLIENT_ORIGIN ?? '*' }));
 app.use(express.json());
 
-app.get('/health', (_req, res) => res.json({ status: 'ok', service: 'notorious-strength-server' }));
+app.get('/health', (_req, res) => res.json({ status: 'ok', service: 'aurafit-server' }));
 app.use('/auth', authRouter);
 app.use('/ai', aiRouter);
 app.use('/payments', paymentsRouter);
@@ -23,7 +23,7 @@ app.use('/config', configRouter);
 
 const port = Number(process.env.PORT ?? 4000);
 app.listen(port, () => {
-  console.log(`Notorious Strength API listening on :${port}`);
+  console.log(`AuraFit API listening on :${port}`);
   console.log(`GET /config/status shows exactly which integrations are live vs. still needing keys.`);
   if (!isDbConfigured()) {
     console.warn('DATABASE_URL not set — /auth, /leads, /form-checks history, and purchase persistence will 503 until it is. Everything else (AI, Razorpay order creation) still works.');

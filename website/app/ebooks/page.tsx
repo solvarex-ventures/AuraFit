@@ -1,7 +1,7 @@
 import RazorpayCheckoutButton from '@/components/RazorpayCheckoutButton';
 import { EBOOKS, EBOOK_BUNDLE_PRICE_INR } from '@/data/pricing';
 
-export const metadata = { title: 'Ebooks — Notorious Strength' };
+export const metadata = { title: 'Ebooks — AuraFit' };
 
 export default function EbooksPage() {
   return (

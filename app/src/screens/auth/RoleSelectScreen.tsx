@@ -43,7 +43,7 @@ export default function RoleSelectScreen() {
   return (
     <SafeAreaView style={styles.screen}>
       <ScrollView contentContainerStyle={styles.content} keyboardShouldPersistTaps="handled">
-        <Text style={styles.eyebrow}>NOTORIOUS STRENGTH</Text>
+        <Text style={styles.eyebrow}>AURAFIT</Text>
         <Text style={styles.title}>Train like it's personal.</Text>
 
         <View style={styles.tabRow}>
